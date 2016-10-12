@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/userheader"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="#0791f4">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/iphone"
+            app:civ_border_color="#FF000000" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_image"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/dp_6"
+            android:text="XXX"
+            android:textColor="#FFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_6"
+        android:text="科目一:"
+        android:textColor="@color/PrimaryDarkColor"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_6"
+        android:text="科一一共：1299题"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/one_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/PrimaryColor" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#d1d1d1"></View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_6"
+        android:text="科目四:"
+        android:textColor="@color/PrimaryDarkColor"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_6"
+        android:text="科四一共：1096题"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/four_number"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/PrimaryColor" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#d1d1d1"></View>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_6"
+        android:text="科目一成绩"
+        android:textColor="@color/PrimaryDarkColor"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/one_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/select_score"
+        android:gravity="center"
+        android:textColor="@color/PrimaryColor" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#d1d1d1"></View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_6"
+        android:text="科目四成绩"
+        android:textColor="@color/PrimaryDarkColor"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/four_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/select_score"
+        android:gravity="center"
+        android:textColor="@color/PrimaryColor" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#d1d1d1"></View>
+
+    <Button
+        android:layout_margin="@dimen/dp_6"
+        android:id="@+id/my_err_question"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:drawableLeft="@drawable/select_error"
+        android:text="我的错题"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:layout_height="50dp">
+    <TextView
+        android:id="@+id/down_up"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/dp_6"
+        android:layout_height="wrap_content"
+        android:text="上一题"
+        android:gravity="center"
+        android:drawableLeft="@drawable/select_up"/>
+    <TextView
+        android:id="@+id/down_delete_collect"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/dp_6"
+        android:layout_height="wrap_content"
+        android:text="取消收藏"
+        android:gravity="center"
+        android:drawableLeft="@drawable/select_delete_collect"/>
+
+    <TextView
+        android:id="@+id/down_down"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/dp_6"
+        android:layout_height="wrap_content"
+        android:text="下一题"
+        android:gravity="center"
+        android:drawableLeft="@drawable/select_down"/>
+</LinearLayout>

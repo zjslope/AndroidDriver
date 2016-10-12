@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/ic_redo_black_24dp" android:state_pressed="true"></item>
+
+    <item android:drawable="@mipmap/ic_redo_white_24dp" ></item>
+</selector>

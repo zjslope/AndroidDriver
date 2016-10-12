@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.slope.androiddriver.drawer.SideBar android:id="@+id/rightSideBar"
+    android:layout_width="133dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:background="@drawable/bg_right_bar"
+    android:gravity="center_vertical|right"
+    app:maxTranslationX="-33dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        style="@style/MenuText"
+        android:text="@string/right_one" />
+
+    <TextView
+        style="@style/MenuText"
+        android:text="@string/right_two" />
+
+    <TextView
+        style="@style/MenuText"
+        android:text="@string/right_three" />
+
+    <TextView
+        style="@style/MenuText"
+        android:text="@string/right_four"/>
+
+    <TextView
+        style="@style/MenuText"
+        android:text="@string/right_problem_collect"/>
+
+    <TextView
+        style="@style/MenuText"
+        android:text="@string/right_news_collect"/>
+
+    <TextView
+        style="@style/MenuText"
+        android:text="@string/right_car_ring"/>
+</com.example.slope.androiddriver.drawer.SideBar>

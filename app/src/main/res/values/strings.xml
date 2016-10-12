@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">易驾考</string>
+    <!--定义用户登陆和注册-->
+    <string name="hint_name">用户名</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">密码</string>
+    <string name="hint_phone">Tel</string>
+    <string name="hint_null">没有账号？注册一个</string>
+    <string name="now_password">当前密码</string>
+    <string name="change_new_password">新密码</string>
+    <string name="new_password">再次输入新密码</string>
+    <!--侧边栏-->
+    <string name="left_logout">注销</string>
+    <string name="left_myexam">我的题库</string>
+    <string name="left_changepwd">修改密码</string>
+    <string name="left_aboutme">关于我</string>
+    <string name="setup">设置</string>
+    <string name="right_one">科目一</string>
+    <string name="right_two">科目二</string>
+    <string name="right_three">科目三</string>
+    <string name="right_four">科目四</string>
+    <string name="right_problem_collect">习题收藏</string>
+    <string name="right_news_collect">新闻收藏</string>
+    <string name="right_car_ring">车友圈</string>
+    <string name="exam">温馨提示：全真模拟考试下不能修改答案，每做错1题扣1分，合格标准为90分</string>
+    <string name="explanation">易驾考（测试版）1.0.0 个人地址：zjlope.cn</string>
+    <string name="base">基于AndroidStudoid2.1</string>
+</resources>

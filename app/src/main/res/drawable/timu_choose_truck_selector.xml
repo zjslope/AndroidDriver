@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:drawable="@mipmap/jiakao_sclc_truck_s" android:state_checked="true"/>
+    <item android:drawable="@mipmap/jiakao_sclc_truck_n" android:state_checked="false"/>
+    <item android:drawable="@mipmap/jiakao_sclc_truck_n"/>
+
+</selector>

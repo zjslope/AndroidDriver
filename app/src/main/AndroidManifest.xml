@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.slope.androiddriver">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_tubiao"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".UniversalActivity"
+            android:theme="@style/UniversalTheme" />
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".RegisteredActivity" />
+        <activity android:name=".WebActivity" />
+        <activity android:name=".NewsActivity" />
+        <activity
+            android:name=".ExaminationActivity"
+            android:theme="@style/UniversalTheme" />
+        <activity android:name=".StartExamActivity" />
+        <activity
+            android:name=".QuestionActivity"
+            android:theme="@style/UniversalTheme" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/noTitle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GuideActivity"
+            android:theme="@style/noTitle" />
+        <activity android:name=".AboutCarActivity" />
+        <activity
+            android:name=".SuggestActivity"
+            android:theme="@style/UniversalTheme" />
+        <activity
+            android:name=".MyErrQuestionActivity"
+            android:theme="@style/UniversalTheme" />
+        <activity android:name=".ExamActivity"></activity>
+    </application>
+
+</manifest>

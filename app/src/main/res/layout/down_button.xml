@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="bottom"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/down_up"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_6"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/select_up"
+        android:gravity="center"
+        android:text="上一题" />
+
+    <TextView
+        android:id="@+id/down_collect"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_6"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/select_question_collect"
+        android:gravity="center"
+        android:text="收藏" />
+
+    <TextView
+        android:id="@+id/down_answer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dp_6"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/select_answer"
+        android:gravity="center"
+        android:text="答案" />
+
+    <TextView
+        android:id="@+id/down_down"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_6"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/select_down"
+        android:gravity="center"
+        android:text="下一题" />
+</LinearLayout>

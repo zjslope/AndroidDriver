@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<include
+    android:id="@+id/adv"
+    layout="@layout/adv"></include>
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adv"
+        android:layout_marginTop="@dimen/dp_6">
+
+        <LinearLayout
+            android:id="@+id/lx_h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="74dp">
+
+            <Button
+                android:id="@+id/traffic"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawableTop="@drawable/select_b"
+                android:text="交通标志"
+                android:textColor="#69abec"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/legislation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawableTop="@drawable/select_f"
+                android:text="法规"
+                android:textColor="#69abec"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/skill"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@null"
+                android:drawableTop="@drawable/select_j"
+                android:text="技巧"
+                android:textColor="#69abec"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="41dp">
+            <Button
+                android:id="@+id/subject1_woring"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:drawableLeft="@drawable/select_error"
+                android:text="我的错题"
+                android:textSize="16sp" />
+            <Button
+                android:id="@+id/subject1_save"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:drawableLeft="@drawable/select_collect"
+                android:text="我的收藏"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/lx_h"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:id="@+id/subject1_order"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:drawableLeft="@drawable/select_sx"
+                android:text="顺序练习"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/subject1_random"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape"
+                android:drawableLeft="@drawable/select_sj"
+                android:text="随机练习"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:id="@+id/examination"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="模拟考试"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:drawableTop="@drawable/select_exam"
+            />
+    </RelativeLayout>
+</LinearLayout>

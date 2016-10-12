@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.slope.androiddriver.drawer.SideBar android:id="@+id/leftSideBar"
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical"
+    app:maxTranslationX="66dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/userInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:onClick="onClick"
+        android:orientation="vertical">
+
+        <com.example.slope.androiddriver.drawer.CircleImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_margin="10dp"
+            android:src="@mipmap/iphone"
+            app:civ_border_color="@color/menu_text_color"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/sidebar_uer_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XXX"
+            android:textColor="@color/menu_text_color"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/MenuText"
+        android:drawableLeft="@drawable/select_question"
+        android:text="@string/left_myexam" />
+
+    <TextView
+        style="@style/MenuText"
+        android:drawableLeft="@drawable/select_pwd"
+        android:text="@string/left_changepwd" />
+
+    <TextView
+        style="@style/MenuText"
+        android:drawableLeft="@drawable/select_logout"
+        android:text="@string/left_logout" />
+
+    <TextView
+        style="@style/MenuText"
+        android:drawableLeft="@drawable/select_person"
+        android:text="@string/left_aboutme" />
+
+    <TextView
+        style="@style/MenuText"
+        android:drawableLeft="@drawable/select_setup"
+        android:text="@string/setup" />
+</com.example.slope.androiddriver.drawer.SideBar>

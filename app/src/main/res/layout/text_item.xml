@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:layout_height="50dp">
+    <TextView
+        android:id="@+id/down_up"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/dp_6"
+        android:layout_height="wrap_content"
+        android:text="上一题"
+        android:gravity="center"
+        android:drawableLeft="@drawable/select_up"/>
+    <TextView
+        android:id="@+id/down_submit"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/dp_6"
+        android:layout_height="wrap_content"
+        android:text="交卷"
+        android:gravity="center"
+        android:drawableLeft="@drawable/select_commet"/>
+
+    <TextView
+        android:id="@+id/down_schedule"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="@dimen/dp_6"
+        android:drawableLeft="@drawable/secelt_bar"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/down_down"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/dp_6"
+        android:layout_height="wrap_content"
+        android:text="下一题"
+        android:gravity="center"
+        android:drawableLeft="@drawable/select_down"/>
+</LinearLayout>
